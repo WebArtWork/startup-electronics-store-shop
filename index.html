@@ -95,57 +95,39 @@
 			<div class="footer__main footer-main">
 				<div class="footer-main__menu footer-menu">
 
-					{% if footer.contents.length %}
 					<div class="footer-menu__block">
-						<span class="footer-menu__title">{{{translate('ThemeArtemVelihin.Contents')}}}</span>
+						<a href="/products" class="footer-menu__title">{{{translate('ThemeArtemVelihin.Electronic')}}}</a>
 						<ul class="footer-menu__list">
 
-							{% for content in footer.contents %}
 
 							<li class="footer-menu__item">
-								<a href="{{{content.url}}}" class="footer-menu__link">{{{content.name}}}</a>
+								<a href="/product" class="footer-menu__link">Electronic One</a>
+							</li>
+							<li class="footer-menu__item">
+								<a href="/product" class="footer-menu__link">Electronic Two</a>
 							</li>
 
-							{% endfor %}
+							<li class="footer-menu__item">
+								<a href="/product" class="footer-menu__link">Electronic Three</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-menu__block">
+						<span class="footer-menu__title">{{{translate('ThemeArtemVelihin.Home')}}}</span>
+						<ul class="footer-menu__list">
+
+
+							<li class="footer-menu__item">
+								<a href="{{{content.url}}}" class="footer-menu__link">Contact</a>
+							</li>
+							<li class="footer-menu__item">
+								<a href="{{{content.url}}}" class="footer-menu__link">Portfolio</a>
+							</li>
+
 
 						</ul>
 					</div>
-					{% endif %}
 
-					{% if footer.products.length %}
-					<div class="footer-menu__block">
-						<a href="/products" class="footer-menu__title">{{{translate('ThemeArtemVelihin.Products')}}}</a>
-						<ul class="footer-menu__list">
-
-							{% for product in footer.products %}
-
-							<li class="footer-menu__item">
-								<a href="/product" class="footer-menu__link">{{{product.name}}}</a>
-							</li>
-
-						{% endfor %}
-
-						</ul>
-					</div>
-					{% endif %}
-					
-
-					{% if footer.articles.length %}
-					<div class="footer-menu__block">
-						<a href="/articles" class="footer-menu__title">{{{translate('ThemeArtemVelihin.Articles')}}}</a>
-						<ul class="footer-menu__list">
-
-							{% for article in footer.articles %}
-
-							<li class="footer-menu__item">
-								<a href="/article" class="footer-menu__link">{{{article.name}}}</a>
-							</li>
-
-						{% endfor %}
-
-						</ul>
-					</div>
-					{% endif %}
 
 				</div>
 

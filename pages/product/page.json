@@ -3,10 +3,10 @@
 	"product": {
 		"id": "/product",
 		"price": 1200,
-		"short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
-        "thumb": "https://neryxomka.com/template/img/welcome.png",
-        "thumbs": ["https://neryxomka.com/template/img/welcome.png", "https://images.unsplash.com/photo-1691661485699-7e459573cb35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80", "https://images.unsplash.com/photo-1682685797366-715d29e33f9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"], 
-		"name": "product"
+		"short": "",
+		"description": "Welcome to the future of connectivity and convenience! Step into the world of cutting-edge technology with our latest smartphone collection, where innovation meets style. Our smartphones are not just devices; they are your gateway to a world of possibilities.Discover the power of seamless communication with our range of smartphones equipped with state-of-the-art features. Stay connected with friends and family through lightning-fast 5G connectivity, ensuring you never miss a moment.",
+        "thumb": "/artemvelihin/img/1.jpg",
+        "thumbs": ["/artemvelihin/img/2.jpg", "/artemvelihin/img/3.jpg"], 
+		"name": "Electronic"
 	}
 }

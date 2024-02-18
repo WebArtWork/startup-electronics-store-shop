@@ -40,7 +40,7 @@
 		"twitter": "https://twitter.com/wawify_com",
 		"telegram": "https://t.me/wawify_news",
 
-    "footer_rights": "All rights Reserved © Electronics, 2023"
+		"footer_rights": "All rights Reserved © Businesses In Ca, 2024"
 	},
 
   "footer": {
@@ -110,21 +110,6 @@
 			}
 		]
   },
-
-	"tags": [
-		{
-			"category": {
-				"group": "article"
-			},
-			"name": "Tag one"
-		},
-		{
-			"category": {
-				"group": "product"
-			},
-			"name": "Tag one"
-		}
-	],
 
 	"groups": [
 		{
